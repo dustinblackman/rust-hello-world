@@ -1,6 +1,6 @@
 [package]
 name = "dustinblackman-hello-world"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
 license = "MIT"
 readme = "README.md"
@@ -11,3 +11,15 @@ description = "An empty Rust binary crate used in integration tests."
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+
+[[bin]]
+name = "dustin-hello-world"
+path = "src/main.rs"
+
+[[bin]]
+name = "dustin-hello-world-first"
+path = "src/first.rs"
+
+[[bin]]
+name = "dustin-hello-world-second"
+path = "src/second.rs"
